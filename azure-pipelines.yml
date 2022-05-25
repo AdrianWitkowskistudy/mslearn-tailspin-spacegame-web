@@ -4,11 +4,10 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
 trigger:
--local
+- local
 
 pool:
 name: local
-  vmImage: ubuntu-latest
 
 variables:
   buildConfiguration: 'Release'
